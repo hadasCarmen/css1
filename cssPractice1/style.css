@@ -1,0 +1,20 @@
+body {
+    position: sticky;
+}
+
+.sec1{
+    height: 1000px;
+    background-color: blue;
+}
+#id1{
+    height: 1000px;
+    color: aqua;
+    background-color: black;
+}
+nav{
+    height: 100px;
+    background-color: brown;
+    position: relative;
+    left: 0;
+    width: 100%;
+}

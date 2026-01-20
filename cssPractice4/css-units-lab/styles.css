@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;  /* TODO: Add 20 pixels of padding */
+    background-color: gold;
+}
+
+.px-box {
+    width: 200px;  /* TODO: Make this 200 pixels wide */
+    height: 200px;  /* TODO: Make this 200 pixels tall */
+    background-color: #3498db;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;  /* TODO: Add 20 pixels top/bottom, 0 left/right */
+}
+
+.px-text {
+    font-size: 16px;  /* TODO: Make this 16 pixels */
+    margin: 10px 0px; 
+}
+.parent-16 {
+    font-size: 16px;
+    border: 2px solid #2ecc71;
+    padding: 15px;  /* TODO: Add 15 pixels of padding */
+    margin: 20px 0px;  /* TODO: Add 20 pixels top/bottom, 0 left/right */
+}
+
+.parent-24 {
+    font-size: 24px;
+    border: 2px solid #e74c3c;
+    padding: 15px;  /* TODO: Add 15 pixels of padding */
+    margin: 20px 0px;  /* TODO: Add 20 pixels top/bottom, 0 left/right */
+}
+
+.em-text {
+    font-size: 1.5em;  /* TODO: Make this 1.5 times the parent font-size using em */
+    color: #34495e;
+}
+
+.em-box {
+    width: 10em;  /* TODO: Make this 10 times the font-size using em */
+    height: 5em;  /* TODO: Make this 5 times the font-size using em */
+    background-color: #9b59b6;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;  /* TODO: Add 10 pixels top/bottom, 0 left/right */
+}
+.level-1 {
+    font-size:1em;  /* TODO: Set to 1em */
+    padding: 15px;  /* TODO: Add 15 pixels */
+    background-color: #ecf0f1;
+}
+
+.level-2 {
+    font: size 1.2em;;  /* TODO: Make this 1.2 times its parent using em */
+    padding: 15px;  /* TODO: Add 15 pixels */
+    background-color: #bdc3c7;
+    margin-top: 10px;  /* TODO: Add 10 pixels */
+}
+
+.level-3 {
+    font-size: 1.2em;  /* TODO: Make this 1.2 times its parent using em (will compound!) */
+    padding: 15px;  /* TODO: Add 15 pixels */
+    background-color: #95a5a6;
+    margin-top: 10px;  /* TODO: Add 10 pixels */
+}
+/* html {
+    font-size:1rem;  /* TODO: Set root font-size to 16 pixels - this is what rem is based on! */
+/* } */ 
+html{
+    font-size: 1rem;
+}
+.rem-text {
+    font-size: 1.5rem;  /* TODO: Make this 1.5 times the ROOT font-size using rem */
+    color: #e67e22;
+}
+
+.rem-box {
+    padding: 1px;
+    width:10rem;  /* TODO: Make this 10 times the ROOT font-size using rem */
+    height: 5rem;  /* TODO: Make this 5 times the ROOT font-size using rem */
+    background-color: #16a085;
+    color: rgb(68, 49, 49);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:10px 0  ;  /* TODO: Add 10 pixels top/bottom, 0 left/right */
+}
+.vw-box-50 {
+    width: 50% ; /* TODO: Make this 50% of the viewport width using vw */
+    height: 100px;  /* TODO: Make this 100 pixels tall */
+    background-color: #0a0a0a;
+    color: rgb(221, 16, 16);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;  /* TODO: Add 20 pixels top/bottom, 0 left/right */
+    /* position: fixed ; */
+    /* top: 10px; */
+    /* z-index: 11; */
+}
+
+.vw-box-75 {
+    width:75%;  /* TODO: Make this 75% of the viewport width using vw */
+    height: 100px;  /* TODO: Make this 100 pixels tall */
+    background-color: #d35400;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;  /* TODO: Add 20 pixels top/bottom, 0 left/right */
+}
+
+.vw-text {
+    font-size:5vw;  /* TODO: Make font size 5% of viewport width using vw */
+    color: #c0392b;
+}
+.vh-box-25 {
+    width: 200px;  /* TODO: Make this 200 pixels wide */
+    height: 25vh;  /* TODO: Make this 25% of the viewport height using vh */
+    background-color: #8e44ad;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;  /* TODO: Add 20 pixels top/bottom, 0 left/right */
+}
+
+.vh-box-50 {
+    width: 200px;  /* TODO: Make this 200 pixels wide */
+    height:50vh;  /* TODO: Make this 50% of the viewport height using vh */
+    background-color: #2c3e50;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:20px 0;  /* TODO: Add 20 pixels top/bottom, 0 left/right */
+}

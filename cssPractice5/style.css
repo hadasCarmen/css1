@@ -1,0 +1,37 @@
+#golan{
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+    background-color: blue;
+}
+#galil{
+    /* display: block; */
+
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+    background-color: brown;
+    border: 40px;
+    border-color: rgb(0, 255, 55);
+    
+}
+#hermon{
+    /* display: inline-block; */
+    /* margin-right: 10px;
+    margin-left: 10px; */
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+    background-color: blueviolet;
+    border: 5px solid blue;
+}
+body{
+    background-color: rosybrown;
+}
+
+main {
+    padding: 8px;
+    height: 90vh;
+    border: 20px solid rgb(190, 45, 69);
+}

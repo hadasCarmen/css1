@@ -1,0 +1,20 @@
+.navbar {
+    position: sticky;
+    top: 10px;
+    left: 0;
+    width: 100%;
+}
+.button {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+#product-card {
+    position: relative;
+}
+
+.sale-badge {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}

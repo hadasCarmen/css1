@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css units lab</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>css units lab</h1>
+    </header>
+    <main>
+      <section class="px-section">
+        <h2>pixels (px)</h2>
+        <div class="box px-box">200px * 200px</div>
+        <p class="px-text">this is 16px</p>
+      </section>
+      <section class="em-section">
+        <h2>Em Units</h2>
+        <div class="parent-16">
+          <p>Parent font-size: 16px</p>
+          <p class="em-text">This text is 1.5em (24px)</p>
+          <div class="em-box">Width: 10em (160px)</div>
+        </div>
+
+        <div class="parent-24">
+          <p>Parent font-size: 24px</p>
+          <p class="em-text">This text is 1.5em (36px)</p>
+          <div class="em-box">Width: 10em (240px)</div>
+        </div>
+      </section>
+      <section class="em-compound">
+        <h2>Em Compounding Example</h2>
+        <div class="level-1">
+          Level 1 (1em)
+          <div class="level-2">
+            Level 2 (1em of parent = 1.2em of root)
+            <div class="level-3">Level 3 (1em of parent = 1.44em of root)</div>
+          </div>
+        </div>
+      </section>
+      <section class="rem-section">
+        <h2>Rem Units</h2>
+        <div class="parent-16">
+          <p>Parent font-size: 16px</p>
+          <p class="rem-text">
+            This text is 1.5rem (always 24px if root is 16px)
+          </p>
+          <div class="rem-box">Width: 10rem (always 160px)</div>
+        </div>
+
+        <div class="parent-24">
+          <p>Parent font-size: 24px</p>
+          <p class="rem-text">This text is 1.5rem (still 24px!)</p>
+          <div class="rem-box">
+            <p>Width: 10rem (still 160px!)</p>
+          </div>
+        </div>
+      </section>
+      <section class="vw-section">
+        <h2>Viewport Width (vw)</h2>
+        <div class="vw-box-50">50vw wide</div>
+        <div class="vw-box-75">75vw wide</div>
+        <p class="vw-text">This text is 5vw</p>
+      </section>
+      <section class="vh-section">
+        <h2>Viewport Height (vh)</h2>
+        <div class="vh-box-25">25vh tall</div>
+        <div class="vh-box-50">50vh tall</div>
+      </section>
+    </main>
+  </body>
+</html>
