@@ -1,0 +1,128 @@
+/* .justA{
+    background-color: rgb(179, 233, 175);
+    display: inline-block;
+    height: 2%;
+    width: 100%;
+    /* direction: rtl; */
+/* } */
+.justA {
+  padding: 0.5em;
+  /* background-color: rgba(21, 101, 192, 1); */
+  color: rgba(255, 255, 255, 1);
+  display: inline-block;
+  width: 6.4%;
+  border-right: 1px solid white;
+  text-decoration: rgb(206, 117, 34) solid underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 3px;
+}
+
+#header {
+  padding: 0.5em;
+  background-color: rgb(14, 94, 76);
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin-bottom: 1em;
+}
+.logo {
+  text-decoration: none;
+  margin: 0.8rem;
+  -webkit-text-stroke-width: 4px;
+}
+.section1 {
+  /* padding: 0.5em; */
+  /* background-color: white; */
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin-bottom: 1em;
+  border-bottom: 1px solid black;
+  margin-top: 7rem;
+}
+#just-flashes {
+  margin-left: 86%;
+  color: white;
+  font-weight: 700;
+  font-size: xx-large;
+  text-decoration: none;
+  background: linear-gradient(red, red, rgb(65, 85, 179));
+}
+#logo2 {
+  background-color: rgb(14, 94, 76);
+  width: 4rem;
+}
+#flashes-left {
+  font-weight: 700;
+  color: black;
+  text-decoration: none;
+}
+#arrow-left {
+  color: red;
+}
+.justB {
+  display: inline-block;
+  border-right: 2px solid black;
+  margin: 0 4.75rem;
+  width: 9rem;
+  color: black;
+  padding: 8px;
+}
+#right-end {
+  border-right: none;
+}
+.span1 {
+  background-color: red;
+  color: white;
+}
+.line {
+  width: 90vw;
+  height: 0.5rem;
+  background-color: rgb(14, 94, 76);
+  display: inline-block;
+  
+  
+}
+.arrow-scroll {
+  background-color: rgb(14, 94, 76);
+  display: inline-block;
+  font-size: x-large;
+  padding-top: 0.2rem;
+  
+}
+.img{
+  display: inline-block;
+  height: 19rem;
+  width: 30rem;
+
+}
+.Headlines{
+  float: inline-end;
+  
+}
+#header31{
+  background-color: red;
+  color: white;
+  direction: rtl;
+  width: fit-content;
+  padding: 1px;
+  
+}
+
+#h32{
+  background-color:rgb(14, 94, 76) ;
+  width: fit-content;
+  color: white;
+  direction: rtl;
+  
+}
+#p1{
+  font-weight:500;
+  font-size: larger;
+  direction: rtl;
+}
+#editor{
+  direction: rtl;
+ color: gray;
+}
+body{
+  border: 5px solid black;
+}
