@@ -61,10 +61,11 @@
 .justB {
   display: inline-block;
   border-right: 2px solid black;
-  margin: 0 4.75rem;
+  margin: 0 4.7rem;
   width: 9rem;
   color: black;
   padding: 8px;
+  direction: rtl;
 }
 #right-end {
   border-right: none;
@@ -125,4 +126,5 @@
 }
 body{
   border: 5px solid black;
+  
 }
